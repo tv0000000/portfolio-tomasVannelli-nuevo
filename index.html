@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desarrollador Web | Tomás Vannelli</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+  <header>
+    <!-- nav escritorio -->
+    <nav class="navEscritorio">
+      <div class="navEscritorio__encabezado">
+        <img class="navEscritorio__img" src="img/foto-presentacion.jpeg" alt="Tomás Vannelli">
+        <h1 class="navEscritorio__h1">Tomás Vannelli</h1>
+        <div class="navEscritorio__iconos">
+          <a class="navEscritorio__link"
+            href="https://www.linkedin.com/in/tomás-vannelli-desarrollador" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a class="navEscritorio__link" href="https://github.com/tv0000000" target="_blank">
+            <i class="fa-brands fa-github iconos__fa"></i>
+          </a>
+          <a class="navEscritorio__link" href="https://wa.me/+5491131203702" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a class="navEscritorio__link" href="mailto:tomasvannelli@gmail.com" target="_blank">
+            <i class="fa-solid fa-at"></i>
+          </a>
+        </div>
+      </div>
+      <div class="navEscritorio__menu">
+        <ul class="navEscritorio__lista">
+          <li class="navEscritorio__item">
+            <a class="navEscritorio__a" href="#"><i class="fa-solid fa-house navEscritorio__i"></i>Inicio</a>
+          </li>
+          <li class="navEscritorio__item">
+            <a class="navEscritorio__a" href="#sobre-mi"><i class="fas fa-user-alt navEscritorio__i"></i>Sobre mi</a>
+          </li>
+          <li class="navEscritorio__item">
+            <a class="navEscritorio__a" href="#habilidades"><i
+                class="fas fa-briefcase navEscritorio__i"></i>Habilidades</a>
+          </li>
+          <li class="navEscritorio__item">
+            <a class="navEscritorio__a" href="#proyectos"><i class="fas fa-code navEscritorio__i"></i>Proyectos</a>
+          </li>
+          <li class="navEscritorio__item">
+            <a class="navEscritorio__a" href="#contacto"><i class="fas fa-comments navEscritorio__i"></i>Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- nav mobile -->
+    <nav class="navbar fixed-top navMobile">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral"
+          aria-controls="offcanvasNavbar">
+          <i class="fa-solid fa-bars navbar-icon"></i>
+        </button>
+        <div class="offcanvas offcanvas-start nav-responsive" id="menuLateral" tabindex="-1">
+          <div class="offcanvas-body-start ms-4 mt-3">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item p-1">
+                <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-house"></i><span
+                    class="ms-2">Inicio</span></a>
+              </li>
+              <li class="nav-item p-1">
+                <a class="nav-link" href="#sobre-mi"><i class="fas fa-user-alt"></i><span class="ms-2">Sobre
+                    mi</span></a>
+              </li>
+              <li class="nav-item p-1">
+                <a class="nav-link" href="#habilidades"><i class="fas fa-briefcase"></i><span
+                    class="ms-2">Habilidades</span></a>
+              </li>
+              <li class="nav-item p-1">
+                <a class="nav-link" href="#proyectos"><i class="fa-solid fa-folder"></i><span
+                    class="ms-2">Proyectos</span></a>
+              </li>
+              <li class="nav-item p-1">
+                <a class="nav-link" href="#contacto"><i class="fas fa-comments"></i><span
+                    class="ms-2">Contacto</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- section banner -->
+    <section class="section-banner">
+      <div class="section-banner__container">
+        <img class="section-banner__img" src="img/foto-presentacion.jpeg" alt="Tomás Vannelli">
+        <h2 class="section-banner__container-h2">Tomás Vannelli</h2>
+        <p class="section-banner__container-p">Front End Developer</p>
+        <div>
+        </div>
+      </div>
+
+      <div class="section-banner__iconos">
+        <a class="section-banner__link"
+          href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a class="section-banner__link" href="https://github.com/tv0000000" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a class="section-banner__link" href="https://wa.me/+5491131203702" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a class="section-banner__link" href="mailto:tomasvannelli@gmail.com" target="_blank">
+          <i class="fa-solid fa-at"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- section sobre -->
+    <section id="sobre-mi" class="section-sobre">
+      <div class="section-sobre__container">
+        <h3 class="section-sobre__container-h3">Sobre mí</h3>
+        <div>
+          <p class="section-sobre__container-p">Hola a todos, les cuento un poco acerca de mi: Soy Abogado y, si bien
+            actualmente me desempeño en la profesión, siempre tuve una profunda pasión por la tecnología. Después de
+            algunos años decidí intentar abrirme camino en este mundo, centrándome específicamente en el
+            <strong>Desarrollo Web Front End.</strong></p>
+
+          <p class="section-sobre__container-p">En Noviembre de 2022 finalicé el curso de Desarrollo Web con éxito y en
+            Marzo de 2023 el de JavaScript, ambos en Coderhouse. A través de proyectos logré crear sitios atractivos y
+            funcionales lo cual impulso aún más mi pasión por la tecnología.</p>
+
+          <p class="section-sobre__container-p">En la actualidad me encuentro en busca de nuevas oportunidades y con
+            muchas ganas de seguir creciendo, manteniendo siempre la disposición de aprender respetando las
+            <strong>buenas prácticas de programación</strong> y de maquetación en mi desarrollo.</p>
+        </div>
+        <button class="section-sobre__button">
+          <a class="section-sobre__button-a"
+            href="https://drive.google.com/file/d/1hngVJSNsVAcnoo-W0BQdWGQANlA861YB/view?usp=sharing"
+            target="_blank">Ver Curriculum</a>
+        </button>
+      </div>
+    </section>
+
+    <!-- section habilidades -->
+    <section id="habilidades" class="section-habilidades">
+      <div class="section-habilidades__contenedor">
+        <h3 class="contenedor__title">Habilidades</h3>
+        <p class="contenedor__parrafo">Entre las tecnologías con las que más he trabajado están: <strong>HTML
+            5</strong>, <strong>CSS3</strong>,
+          <strong> JavaScript</strong>, Bootstrap, SASS para todo lo relacionado con el desarrollo; Git, y
+          <strong>Github</strong> como repositorio de código.
+        </p>
+      </div>
+      <div class="section-habilidades__cards">
+        <div class="cards__item">
+          <i class="fab fa-html5 card__i"></i>
+          <p class="card__parrafo">HTML</p>
+        </div>
+        <div class="item-cards cards__item">
+          <i class="fa-brands fa-css3-alt card__i"></i>
+          <p class="card__parrafo">CSS</p>
+        </div>
+        <div class="item-cards cards__item">
+          <i class="fa-brands fa-js card__i"></i>
+          <p class="card__parrafo">javaScript</p>
+        </div>
+        <div class="item-cards cards__item">
+          <i class="fa-brands fa-git card__i"></i>
+          <p class="card__parrafo">Git</p>
+        </div>
+        <div class="item-cards cards__item">
+          <i class="fa-brands fa-github card__i"></i>
+          <p class="card__parrafo">Github</p>
+        </div>
+        <div class="item-cards cards__item">
+          <i class="fa-brands fa-sass card__i"></i>
+          <p class="card__parrafo">SASS</p>
+        </div>
+        <div class="item-cards cards__item">
+          <i class="fa-brands fa-bootstrap card__i"></i>
+          <p class="card__parrafo">Bootstrap</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- section proyectos-->
+    <section id="proyectos" class="section-proyectos">
+      <h3 class="section-proyectos__title">Algunos de mis proyectos</h3>
+      <div class="section-proyectos__contenedor">
+        <div class="row section-proyectos__row mt-5">
+          <div class="col-lg-6 col-md-7 section-proyectos__trabajos" data-aos="fade-up" data-aos-duration="3000">
+            <img class="trabajos__img" src="img/horizontes.png" alt="imagen de proyecto">
+            <div class="trabajos__hover">
+              <h4 class="trabajos__title"> Horizontes Saludables</h4>
+              <div class="trabajos__links">
+                <a class="trabajos__a" target="_blank" href="https://tv0000000.github.io/portfolio-proyecto-horizontes/"><i class="fa-solid fa-link"></i></a>
+                <a class="trabajos__a" target="_blank" href="https://github.com/tv0000000/portfolio-proyecto-horizontes"><i class="fa-brands fa-github"></i></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-5 section-proyectos__informacion" data-aos="fade-up" data-aos-duration="3000">
+            <p class="informacion__parrafo informacion__parrafo--responsive"><span class="informacion__span">Sitio
+                web:</span> Horizontes Saludables</p>
+            <p class="informacion__parrafo informacion__parrafo--responsive"><span
+                class="informacion__span">Tecnologías:</span> HTML, CSS, Bootstrap</p>
+          </div>
+        </div>
+
+        <div class="row section-proyectos__row mt-5">
+          <div class="col-lg-6 col-md-5 order-2 order-lg-1 order-md-1 section-proyectos__informacion" data-aos="fade-up"
+            data-aos-duration="3000">
+            <p class="informacion__parrafo"></p><span class="informacion__span">Sitio web:</span> Shop</p>
+            <p class="informacion__parrafo"></p><span class="informacion__span">Tecnologías:</span> HTML, CSS,
+            Bootstrap, JavaScript.</p>
+          </div>
+          <div class="col-lg-6 col-md-7 order-1 order-lg-2 order-md-1 section-proyectos__trabajos" data-aos="fade-up"
+            data-aos-duration="3000">
+            <img class="trabajos__img" src="img/shop.jpg" alt="imagen proyecto">
+            <div class="trabajos__hover">
+              <h4 class="trabajos__title">Shop</h4>
+              <div class="trabajos__links">
+                <a class="trabajos__a" target="_blank" href="#"><i class="fa-solid fa-link"></i></a>
+                <a class="trabajos__a" target="_blank" href="#"><i class="fa-brands fa-github"></i></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row section-proyectos__row mt-5">
+          <div class="col-lg-6 col-md-7 section-proyectos__trabajos" data-aos="fade-up" data-aos-duration="3000">
+            <img class="trabajos__img" src="img/portfolio.png" alt="imagen proyecto">
+            <div class="trabajos__hover">
+              <h4 class="trabajos__title">Portfolio</h4>
+              <div class="trabajos__links">
+                <a class="trabajos__a" target="_blank" href="https://tv0000000.github.io/portfolio-tomasVannelli-nuevo/"><i class="fa-solid fa-link"></i></a>
+                <a class="trabajos__a" target="_blank" href="https://github.com/tv0000000/portfolio-tomasVannelli-nuevo"><i class="fa-brands fa-github"></i></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-5 section-proyectos__informacion" data-aos="fade-up" data-aos-duration="3000">
+            <p class="informacion__parrafo informacion__parrafo--responsive"><span class="informacion__span">Sitio web:
+              </span>Portfolio</p>
+            <p class="informacion__parrafo informacion__parrafo--responsive"><span
+                class="informacion__span">Tecnologías:</span> HTML, CSS, Bootstrap.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section contacto-->
+    <section id="contacto" class="section-contacto">
+      <div class="section-contacto__container">
+        <h3 class="section-contacto__title">Contacto</h3>
+        <p class="section-contacto__parrafo">Si queres, podes contactarme a través de los siguientes medios:
+        </p>
+        <div class="section-contacto__iconos">
+          <a class="iconos__ancla" href="https://www.linkedin.com/in/tomás-vannelli-desarrollador"
+            target="_blank">
+            <i class="fa-brands fa-linkedin-in iconos__fa"></i>
+          </a>
+          <a class="iconos__ancla" href="https://github.com/tv0000000" target="_blank">
+            <i class="fa-brands fa-github iconos__fa"></i>
+          </a>
+          <a class="iconos__ancla" href="https://api.whatsapp.com/send?phone=598091993879" target="_blank">
+            <i class="fa-brands fa-whatsapp iconos__fa"></i>
+          </a>
+          <a class="iconos__ancla" href="mailto:tomasvannelli@gmail.com" target="_blank">
+            <i class="fa-solid fa-at iconos__fa"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+    <a class="footer__a" href="#">
+      <i class="fa-solid fa-arrow-up-from-bracket footer__fa"></i>
+    </a>
+    <span class="footer__final">Tomás Vannelli ©</span>
+    <!-- <p>© Tomás Vannelli</p> -->
+  </footer>
+
+  <!-- Bootstrap 5.3.0 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/08d18d8385.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
